@@ -103,6 +103,46 @@ Enter credit hours: 3
 Total Credits: 10.00
 Final GPA: 8.70
 
+## Algorithm for Student GPA Calculation
+Step-1: Start
+Step-2: Declare variables
+        n → number of subjects
+        marks, credit
+        grade_point, grade_points
+        total_gp = 0, total_credits = 0
+Step-3: Input the number of subjects n.
+Step-4: Set i = 1.
+Step-5: Check the condition i ≤ n.
+Step-6: If the condition is true, perform the
+        following steps:
+        Input marks of the subject.
+        Input credit of the subject.
+Step-7: Determine the grade point based on marks:
+        90 – 100 → Grade Point = 10
+        80 – 89 → Grade Point = 9
+        70 – 79 → Grade Point = 8
+        60 – 69 → Grade Point = 7
+        50 – 59 → Grade Point = 6
+        40 – 49 → Grade Point = 5
+        Below 40 → Grade Point = 0
+Step-8: Calculate
+        grade_points = grade_point × credit.
+Step-9: Update
+        total_gp = total_gp + grade_points.
+Step-10: Update
+        total_credits = total_credits + credit.
+Step-11: Increment
+        i = i + 1.
+Step-12: Go back to Step-5.
+Step-13: If the condition is false, calculate
+         GPA = total_gp / total_credits.
+Step-14: Display the GPA.
+Step-15: Stop.
+
+## Flowchart
+<img width="1024" height="1024" alt="file_00000000db8c720bb74b48dbe7957bf2" src="https://github.com/user-attachments/assets/fb2aa30c-f8ec-43b1-90ee-b2bad2d4569a" />
+
+
 ## Conclusion
 This project demonstrates:
 Use of loops and conditionals
